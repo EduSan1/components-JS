@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-direction: column;
+    padding: 50px 0;
+    background-color: #0a0a0a;
+}
+
+.search {
+
+    display: flex;
+    align-content: flex-start;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.search>input {
+
+    width: 400px;
+    height: 40px;
+}
+
+.search>button {
+
+    width: 100px;
+    height: 40px;
+}
+
+.card-container {
+    padding:  50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
